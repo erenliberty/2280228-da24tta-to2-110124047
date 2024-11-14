@@ -20,10 +20,10 @@ int main ()
 	
 	printf("Mssv:");
 	fflush(stdin);
-	scanf("%s", mssv);
+	scanf("%s", &mssv);
 	
 	printf("Diem xet tuyen:");
-	scanf("%d", diemxt);
+	scanf("%d", &diemxt);
 	
 	//Xuat du lieu
 	printf("%d %d %s %s %d",namsinh,hoten,lop,mssv,diemxt);
